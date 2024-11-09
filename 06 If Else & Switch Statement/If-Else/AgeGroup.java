@@ -8,11 +8,9 @@ public class AgeGroup {
 
         if (Age <= 12) {
             System.out.println(Age + " Age is Child");
-        } 
-        else if (Age > 12 && Age < 18) {
+        } else if (Age > 12 && Age < 18) {
             System.out.println(Age + " Age is Teenager");
-        }
-        else {
+        } else {
             System.out.println(Age + " Age is Adult");
         }
         sc.close();

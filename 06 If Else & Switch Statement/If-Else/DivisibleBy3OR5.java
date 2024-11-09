@@ -7,16 +7,13 @@ public class DivisibleBy3OR5 {
         int Value = sc.nextInt();
         if (Value % 5 == 0 && Value % 3 == 0) {
             System.out.println(Value + " is divisible by 3 and 5");
-        } 
-        else if (Value % 5 == 0){
+        } else if (Value % 5 == 0) {
             System.out.println(Value + " is divisible by 5");
-        }
-        else if (Value % 3 == 0){
+        } else if (Value % 3 == 0) {
             System.out.println(Value + " is divisible by 3");
-        }
-        else {
+        } else {
             System.out.println(Value + " is invalid value");
         }
-            sc.close();
+        sc.close();
     }
 }

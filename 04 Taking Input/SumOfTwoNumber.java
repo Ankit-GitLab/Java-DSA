@@ -11,7 +11,9 @@ public class SumOfTwoNumber {
             
             int Sum = num_1 + num_2;
             System.out.println("The sum of two number : " + Sum);
+            sc.close();
         }
+        
 
     }
 }

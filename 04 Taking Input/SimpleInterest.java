@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class SimpleInterest {
-    @SuppressWarnings("resource")
+
 	public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -19,5 +19,6 @@ public class SimpleInterest {
 
         float si = (p * r * t)/100;
         System.out.println("Simple Interest : " +si);
+        sc.close();
     }
 }

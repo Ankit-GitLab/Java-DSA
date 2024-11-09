@@ -4,9 +4,9 @@ public class ContinueKeyword {
 
       for(int num = 1; num <= 50; num++){
         if(num % 3 == 0){
-            continue;
+            continue; // skip
         }
-        System.out.println(num);
+        System.out.print(num+" ");
       }
    } 
 }

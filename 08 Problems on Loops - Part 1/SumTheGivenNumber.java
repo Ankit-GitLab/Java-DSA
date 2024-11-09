@@ -1,17 +1,17 @@
 import java.util.*;
 
-public class SumTheGivenNumber {
+public class sumTheGivenNumber {
     public static void main(String[] args){
-        System.out.println("Enter a number which one you sum the number");
+        System.out.print("enter A Number Which One You Get The Sum : ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int Oringal_num = num;
-        int SumOfDigit = 0;
+        int oringalNum = num;
+        int sumOfDigit = 0;
         while(num > 0){
-            SumOfDigit += num % 10;
+            sumOfDigit += num % 10;
             num = num / 10;
         }
-        System.out.println("Sum of " + Oringal_num + " number is : " + SumOfDigit);
+        System.out.print("sum Of " + oringalNum + " Number Is : " + sumOfDigit);
         sc.close();
      }
 }

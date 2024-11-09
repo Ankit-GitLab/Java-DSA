@@ -15,8 +15,8 @@ public class StreamOfNum {
 
             num = sc.nextInt();
         }
-        System.out.println("Your Answer is :");
-        System.out.println(Sum);
+        System.out.print("The Sum Of All Number Is : " + Sum);
+       
         sc.close();
     }
 }

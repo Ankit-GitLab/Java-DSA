@@ -1,16 +1,16 @@
 import java.util.*;
 
-public class FactorialTheGivenNumber {
+public class factorialTheGivenNumber {
     public static void main(String[] args) {
-        System.out.println("Enter a number which you Want a factorial");
+        System.out.print("enter A Number Which you Want A Factorial : ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int Product = 1;
         for (int i = 1; i <= num; i++) {
             Product *= i;
-            System.out.println("Factorial number of " + i + " is : " + Product);
+            System.out.println("factorial Number Of " + i + " Is : " + Product);
         }
-        
+
         sc.close();
     }
 }

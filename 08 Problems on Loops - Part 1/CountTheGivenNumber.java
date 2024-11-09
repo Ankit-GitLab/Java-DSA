@@ -1,17 +1,17 @@
 import java.util.*;
 
-public class CountTheGivenNumber {
+public class countTheGivenNumber {
     public static void main(String[] args) {
-        System.out.println("Enter a number which one you count the digit");
+        System.out.print("enter A Number Which One You Count The Digit : ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int original_num = num;
-        int NumberOfDigit = 0;
+        int originalNum = num;
+        int numberOfDigit = 0;
         while (num > 0) {
             num /= 10;
-            NumberOfDigit++;
+            numberOfDigit++;
         }
-        System.out.println("Number of digit in " + original_num + " is :" + NumberOfDigit);
+        System.out.print("number Of Digit In " + originalNum + " In Digit Is : " + numberOfDigit);
         sc.close();
     }
 }
