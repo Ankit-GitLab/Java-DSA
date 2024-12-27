@@ -1,18 +1,26 @@
-class Algebra{
-    int a = 10; // member variables
-    int b = 5;
+class Algebra {
 
-    int add(){
-        return a + b;
+    void demo() {
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println(i);
+
+        }
+        for (int i = 0; i < 2; i++) {
+
+            System.out.println(i);
+        }
+
     }
-    int sub (){
-        return a - b;
-    }
+
 }
 
 public class Main {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+         Algebra obj = new Algebra();
+         obj.demo();
+            
     }
-    
+
 }
